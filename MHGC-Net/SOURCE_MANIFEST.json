@@ -1,0 +1,43 @@
+{
+  "release_scope": "model architecture source only; no weights or training/evaluation pipeline",
+  "source_archive": "MHGC-Net_part2_training_code_20260827.tar.gz",
+  "source_archive_sha256": "c82b5ddfab5b939d2566881ffd96fa4e29260baa057eeadbc8aad14aef5cbb29",
+  "source_archive_checksum_verified": true,
+  "copied_files": [
+    {
+      "path": "models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "models/mhgc_net.py",
+      "sha256": "65f6f1ad35d7efa492febbcb7a604f28572d7ae4fe25d5e74feee9ae15f28ac5",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "models/AASIST.py",
+      "sha256": "4bfefd6ce19c506c15bd014c4daf476ac7eda5da570115b8faff8fbc7db7b83d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "models/ACRNN.py",
+      "sha256": "1404ebe471244777cdac2015cfb3c70b8c33cb795e3c6cabede334d59ed1b1fa",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bb5bf39ca260648c9810e7449c820f6015605ed53afb6e1b4a8f7caaa06b100d",
+      "byte_identical_to_source": true
+    }
+  ],
+  "computation_changed": false,
+  "excluded": [
+    "model weights and pretrained encoder assets",
+    "training and evaluation scripts",
+    "dataset loaders and preprocessing pipeline",
+    "benchmark scripts",
+    "datasets and protocol/evaluation keys",
+    "training settings and historical checkpoint records",
+    "scores, logs and caches"
+  ]
+}
