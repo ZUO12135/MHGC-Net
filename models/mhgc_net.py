@@ -286,7 +286,7 @@ class StochasticFeatureReorganization(nn.Module):
 
 class MHGCNet(nn.Module):
     def __init__(self, use_lsb=True, use_sfr=True, 
-                 lsb_prob=0.5, sfr_prob=0.3,
+                 lsb_prob=0.05, sfr_prob=0.05,
                  use_mrgf=True, use_bcam=True, use_svge=True, use_hgrm=True,
                  active_views=None):
         super().__init__()
