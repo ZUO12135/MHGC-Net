@@ -2,6 +2,10 @@
 
 Core model implementation for **MHGC-Net: A Multi-View Heterogeneous Graph Collaborative Attention Network for Robust Audio Deepfake Detection**.
 
+## Model Architecture
+
+![MHGC-Net architecture](mhgc_net_architecture.png)
+
 The model source is provided in `models/`. The complete training and evaluation code will be publicly released upon acceptance of the manuscript.
 
 Default augmentation probabilities (Table 3): `lsb_prob=0.05`, `sfr_prob=0.05`.
